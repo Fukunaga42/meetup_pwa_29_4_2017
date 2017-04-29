@@ -345,6 +345,7 @@ Puis lancer ces commandes :
 npm install -g firebase-tools
 firebase login
 firebase init // seulement sélectionner hosting et le repertoire est 'build'
+firebase use --add // select your project and add alias
 npm run build && firebase deploy
 ```
 
